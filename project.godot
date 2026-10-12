@@ -1,0 +1,18 @@
+; UnrealWorld —— 独立测试工程（验证插件可自编译、可运行）
+; 本工程只为测试插件本身；实际使用时由宿主项目（如 ProjectA）引入 addons/unreal_world。
+
+config_version=5
+
+[application]
+
+config/name="UnrealWorld"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+run/main_scene="res://scenes/test_world.tscn"
+
+[dotnet]
+
+project/assembly_name="UnrealWorld"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"

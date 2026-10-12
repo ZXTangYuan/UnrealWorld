@@ -1,0 +1,18 @@
+# Godot editor data
+.godot/
+
+# C# / Mono build output
+.mono/
+.import/
+bin/
+obj/
+*.csproj.user
+*.sln.user
+*.user
+
+# IDE and OS files
+.vs/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
