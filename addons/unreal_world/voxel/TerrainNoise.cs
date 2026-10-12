@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-namespace ProjectA.Voxel;
+namespace UnrealWorld.Voxel;
 
 /// <summary>
 /// 地形基线的共享噪声实现。
